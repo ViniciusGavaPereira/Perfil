@@ -1,0 +1,113 @@
+body{
+    background-color: #3F1466;
+    overflow: hidden;
+    font-family: "Kumbh sans", sans-serif;
+}
+
+
+.profile p{
+    margin: 25px 25px
+}
+
+
+.image_one{
+    width: 1200px;
+    position: absolute;
+    top: -700PX;
+    left: -600px;
+    z-index: -1;
+    
+
+}
+
+.image_two{
+    width: 1200px;
+    position: absolute;
+    right: -400px;
+    bottom: -850px;
+    z-index: -1;
+    
+}
+
+
+.profile{
+    background-color: rgba(245, 245, 245, 0.849);
+    width: 325px;
+    height: 385px;
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px; 
+}
+
+.first{
+    background-image:  url("./images/bg-pattern-card.svg");
+    width: 100%;
+    height: 35%;
+    border-radius: 25px 25px 0px 0px; 
+   
+}
+
+.first img{
+    width: 125px;
+    position: relative;
+    top:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 125px;
+
+}
+
+.second{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 65%;
+    border-radius: 0px 0px 25px 25px; 
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.second p{
+    display: block;
+    color: rgb(15, 15, 15);
+    margin-top: 10px;
+    
+}
+
+.second b{
+    color: #3F1466
+
+}
+
+.numbers{
+    font-size: 18px;
+    color: #00AFB5
+}
+
+.status{
+    color: rgb(15, 15, 15);
+}
+
+
+
+.information{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px
+}
+
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px;
+    color: white;
+}
+
+.attribution a{
+    color: #00AFB5;  
+}
